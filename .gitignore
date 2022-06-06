@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+/.idea/scientific-visualization-metaphor.iml
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea
