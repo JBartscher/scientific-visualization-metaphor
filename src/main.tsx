@@ -6,12 +6,14 @@ import Characters from "./Characters";
 import "./index.css";
 import Newsletter from "./Newsletter";
 import ViewBox from "./ViewBox";
+import ViewBoxCirclePacking from "./ViewBoxCirclePacking";
 
 const AppRoutes = () => (
   <Routes>
     <Route path="/" element={<Newsletter />} />
     <Route path="/characters" element={<Characters />} />
     <Route path="/v" element={<ViewBox />} />
+    <Route path="/v2" element={<ViewBoxCirclePacking />} />
   </Routes>
 );
 
