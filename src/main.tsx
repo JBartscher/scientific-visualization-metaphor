@@ -5,11 +5,13 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Characters from "./Characters";
 import "./index.css";
 import Newsletter from "./Newsletter";
+import ViewBox from "./ViewBox";
 
 const AppRoutes = () => (
   <Routes>
     <Route path="/" element={<Newsletter />} />
     <Route path="/characters" element={<Characters />} />
+    <Route path="/v" element={<ViewBox />} />
   </Routes>
 );
 
